@@ -1,10 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-section{
+
+section {
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -14,16 +15,19 @@ section{
     align-items: center;
     justify-content: center;
 }
-.text{
+
+.text {
     color: gray;
     font-size: 20px;
 }
-.natija{
+
+.natija {
     width: 550px;
     height: 70px;
     background-color: rgb(53, 53, 53);
 }
-.app{
+
+.app {
     width: 550px;
     height: 500px;
     background-color: rgb(53, 53, 53);
@@ -32,23 +36,30 @@ section{
     flex-direction: column;
     gap: 45px;
     align-items: center;
-    
+
 }
-.texts{
+
+.texts {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 250px;
 }
+
 .texts p {
     color: white;
     font-size: 30px;
 }
-.texts span{
+
+.texts span {
     font-size: 35px;
     color: green;
 }
-.btn5, .btn10, .btn15, .btn20 {
+
+.btn5,
+.btn10,
+.btn15,
+.btn20 {
     width: 120px;
     height: 50px;
     font-size: 30px;
@@ -59,6 +70,90 @@ section{
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.btn5:hover, .btn10:hover, .btn15:hover, .btn20:hover {
+
+.btn5:hover,
+.btn10:hover,
+.btn15:hover,
+.btn20:hover {
     transform: scale(0.9);
+}
+
+.btn5:active,
+.btn10:active,
+.btn15:active,
+.btn20:active {
+    transform: scale(1.1);
+}
+
+.checkboxs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    right: 50px;
+}
+
+.foo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.foo1 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.foo2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.foo3 {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.foo4 {
+    display: flex;
+    gap: 20px;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+}
+
+.tt {
+    color: white;
+    font-size: 20px;
+}
+
+.generate button {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.generate button:hover {
+    transform: scale(0.9);
+}
+
+.generate button:active {
+    transform: scale(1.1);
+}
+
+.natija {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
