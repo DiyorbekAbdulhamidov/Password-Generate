@@ -1,4 +1,4 @@
-const bt5 = document.querySelector(".btn5");
+    const bt5 = document.querySelector(".btn5");
 const bt10 = document.querySelector(".btn10");
 const bt15 = document.querySelector(".btn15");
 const bt20 = document.querySelector(".btn20");
