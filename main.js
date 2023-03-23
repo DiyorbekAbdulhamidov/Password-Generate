@@ -191,3 +191,5 @@ bt20.addEventListener("click", () => {
         });
     });
 })
+
+console.log("Salom");
