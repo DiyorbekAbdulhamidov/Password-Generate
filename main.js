@@ -124,11 +124,11 @@ function btnGetter (btn) {
     btngetter.addEventListener("click",function() {
         btn.style.backgroundColor = "blueviolet"
 
-        if (btnNum) inputText.value = randomNum(btn.innerText)
-        if (upperC) inputText.value = upper(btn.innerText)
-        if (lowerC) inputText.value = lower(btn.innerText)
-        if (symbolC) inputText.value = Symbol(btn.innerText)
-        inputText.value = yig
+        if (btnNum) inputText.innerText = randomNum(btn.innerText)
+        if (upperC) inputText.innerText = upper(btn.innerText)
+        if (lowerC) inputText.innerText = lower(btn.innerText)
+        if (symbolC) inputText.innerText = Symbol(btn.innerText)
+        inputText.innerText = yig
         yig = ""
     })
 }
