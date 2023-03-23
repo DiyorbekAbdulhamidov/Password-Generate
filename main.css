@@ -53,7 +53,7 @@ section {
 
 .texts span {
     font-size: 35px;
-    color: green;
+    color: #A4FFAF;
 }
 
 .btn5,
@@ -137,14 +137,18 @@ input {
     width: 400px;
     height: 50px;
     font-size: 20px;
-    background-color: green;
+    background-color: #A4FFAF;
     border: none;
-    color: white;
+    color: #333;
     transition: all 0.3s ease-in-out;
 }
 
 .generate button:hover {
     transform: scale(0.9);
+    background-color: unset;
+    border: solid 3px #A4FFAF;
+    color: #A4FFAF;
+    font-weight: ;
 }
 
 .generate button:active {
