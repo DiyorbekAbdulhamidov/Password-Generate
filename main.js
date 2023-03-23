@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 console.log("Password Generator");
 
 
@@ -134,4 +131,3 @@ function btnGetter (btn) {
         yig = ""
     })
 }
->>>>>>> origin/master
