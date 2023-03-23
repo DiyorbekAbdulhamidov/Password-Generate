@@ -14,6 +14,7 @@ const inNum = document.getElementById("NUM")
 const inUpper = document.getElementById("UPP")
 const inLower = document.getElementById("LOV")
 const inSymbol = document.getElementById("SYM")
+const hisob = document.querySelector(".hisob")
 
 let random
 
@@ -49,16 +50,20 @@ inLower.addEventListener("click", function() {
 
 btn5.addEventListener("click", function () {
     btnGetter(btn5)
+    hisob.innerText = "5"
 })
 
 btn10.addEventListener("click", function () {
     btnGetter(btn10)
+    hisob.innerText = "10"
 })
 btn15.addEventListener("click", function () {
     btnGetter(btn15)
+    hisob.innerText = "15"
 })
 btn20.addEventListener("click", function () {
     btnGetter(btn20)
+    hisob.innerText = "20"
 })
 
 
