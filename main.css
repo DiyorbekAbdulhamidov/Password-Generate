@@ -157,3 +157,11 @@ input {
     justify-content: center;
     font-size: 30px;
 }
+
+#inputText {
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    color: white;
+    background-color:  rgb(53, 53, 53);;
+}
