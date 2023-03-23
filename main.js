@@ -25,22 +25,22 @@ let symbolC = false
 let yig = ""
 
 
-inSymbol.addEventListener("click", function() {
+inSymbol.addEventListener("click", function () {
     if (symbolC) symbolC = false
     else symbolC = true
 })
 
-inNum.addEventListener("click", function() {
+inNum.addEventListener("click", function () {
     if (btnNum) btnNum = false
     else btnNum = true
 })
 
-inUpper.addEventListener("click", function() {
+inUpper.addEventListener("click", function () {
     if (upperC) upperC = false
     else upperC = true
 })
 
-inLower.addEventListener("click", function() {
+inLower.addEventListener("click", function () {
     if (lowerC) lowerC = false
     else lowerC = true
 })
@@ -118,9 +118,9 @@ function Symbol(btn) {
 }
 
 
-function btnGetter (btn) {
+function btnGetter(btn) {
     btn.style.backgroundColor = "rgb(115, 236, 115)"
-    btngetter.addEventListener("click",function() {
+    btngetter.addEventListener("click", function () {
         btn.style.backgroundColor = "blueviolet"
 
         if (btnNum) inputText.value = randomNum(btn.innerText)
